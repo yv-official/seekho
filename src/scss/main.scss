@@ -1,0 +1,16 @@
+///variables
+@import "abstracts/variables";
+
+//base
+@import "base/base";
+
+//components
+@import "components/header";
+@import "components/classCard";
+
+//pages
+@import "pages/homepage";
+@import "pages/studentRegistration";
+@import "pages/instituteRegistration";
+@import "pages/dashboard";
+@import "pages/classPage";

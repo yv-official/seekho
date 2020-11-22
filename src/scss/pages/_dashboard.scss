@@ -1,0 +1,22 @@
+.dashboard{
+    width: 100%;
+    // height: calc(100vh-50px);
+    padding: 2rem;
+    box-sizing: border-box;
+    // overflow: hidden;
+
+    &__heading{
+        font-size: 1.8rem;
+        font-family: $font-family-primary;
+        font-weight: 500;
+        display: flex;
+        margin-bottom: 2rem;
+    }
+
+    &__classes{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+}
