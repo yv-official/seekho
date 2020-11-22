@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import Timeline from './timeline'
 import Members from './members'
 import Doubts from './doubts'
+import { Theaters, Notes } from '@material-ui/icons'
 
 const Classes = ({match}) => {
     const [ activeTile, setActiveTile ] = useState(1) 
@@ -29,10 +30,12 @@ const Classes = ({match}) => {
                 {activeTile === 1 && <> 
                     <div className="class-page__records">
                         <div className="record-tile">
-                            <span>My Recordings</span>
+                            <Theaters />
+                            <span className='margin-left-auto margin-top-auto'>My Recordings</span>
                         </div>
                         <div className="record-tile">
-                            <span>My Notes</span>
+                            <Notes />
+                            <span className='margin-left-auto margin-top-auto'>My Notes</span>
                         </div>
                     </div>
                 </>}
